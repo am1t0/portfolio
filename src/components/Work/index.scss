@@ -1,0 +1,31 @@
+
+.title{
+    font-size: 53px;
+    font-weight: bold;
+    color: #ffd700;
+    font-family: "Coolvetica";
+    margin-left: 10rem;
+    margin-top: 6rem;
+}
+
+.projects-grid {
+    // border: 1px solid red;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    padding: 2rem 3rem 0rem 10rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0rem;
+    opacity: 0;
+    animation: backInUp 1s 1.2s;
+    animation-fill-mode: forwards;
+
+    @media (max-width: 1024px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (max-width: 768px) {
+        grid-template-columns: 1fr;
+    }
+}
+

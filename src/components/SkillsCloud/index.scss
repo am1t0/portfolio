@@ -1,0 +1,41 @@
+.text-sphere{
+    position: absolute;
+    top: -50rem;
+    right: -4rem;
+    opacity: 0;
+    animation: fadeIn 1s 2s;
+    animation-fill-mode: forwards;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity .3s ease-in;
+
+    .tagCloud{
+        position: relative;
+        display: inline-block;
+        top: 50rem;
+        left: 0;
+        // border: 1px solid;
+        border-radius: 30rem;
+        background: black;
+    }
+    
+    .tagcloud--item{
+        letter-spacing: 0.0625em;
+        font-size: 19px;
+        font-family: cursive;
+        font-size:1.7rem;
+        font-weight: 600;
+        color: rgb(234, 229, 229);
+    }
+    
+}
+
+.appear{
+    // opacity: 1;
+  
+    
+
+}

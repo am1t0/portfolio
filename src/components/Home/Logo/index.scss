@@ -1,0 +1,32 @@
+.profileImg {
+  position: absolute;
+  display: none;
+  // border: 1px solid red;
+  width: 100%;
+  height: 100vh;
+  
+img {
+  // border: 1px solid red;
+  position: absolute;
+  right: 18%;
+  top: 5rem;
+    width: 35%;
+    // border: 1px solid;
+    // border-radius: 100rem;
+    background: black;
+}
+
+  &::after{
+    -webkit-box-shadow: inset 0 0 10px 10px #000;   
+    -moz-box-shadow: inset 0 0 10px 10px #000;
+    box-shadow: inset 0 0 10px 10px #000;
+  }
+}
+
+@media screen and (max-width: 1495px) {
+   .profileImg {
+     display: block;
+     top: 10rem;
+     right: -5rem;
+   }
+}

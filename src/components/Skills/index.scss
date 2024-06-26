@@ -1,0 +1,55 @@
+.skills{
+//    outline: 1px solid;
+
+    h2{
+      margin-bottom: 3px;
+      display: flex;
+      align-items: center;
+      color: #ffd700;
+      gap: 5px;
+    
+     .icon{
+        font-size: 13px;
+        position: relative;
+        z-index: 100;
+        padding: 4px;
+        color: rgb(66, 66, 66);
+        background: #ffd700;
+        border-radius: 40px;
+     }
+     
+     &::after {
+        content: '';
+        position: absolute;
+        width: 1px; // Width of the vertical line
+        height: 60%; // Height of the line (extends the full height of the h2)
+        background-color: #727272; // Color of the vertical line
+        left: 1rem;
+        top: 12.3rem;
+        opacity: 0; // Start with opacity 0
+        animation: lineFadeIn 2s forwards;
+        animation-delay: 2s;
+        width: 2px;
+        background: #ffd700;
+      }
+      @keyframes lineFadeIn {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+   }
+   
+   .desc {
+    padding-left: 20px;
+
+    h4{
+      margin: 0;
+      color: rgb(64, 127, 245);
+    }
+
+   }
+   
+}
