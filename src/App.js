@@ -10,7 +10,7 @@ import Work from './components/Work';
 function App() {
   return (
     <>
-     <Routes  basename="/portfolio">
+     <Routes>
         <Route path='/' element={<Layout/>}>
           <Route index element={<Home/>}/>
           <Route path='/about' element={<About/>}/>
