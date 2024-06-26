@@ -115,8 +115,8 @@ export default function Contact() {
                     <br />
                     India,
                     <br />
-                    19, New Market Place, <br />
-                    Near Railway Station, <br />
+                    B-9,Sahara City Homes, <br />
+                    Bicholi Mardana, <br />
                     Indore <br />
                     <p>amiitt@gmail.com</p>
                 </div>
